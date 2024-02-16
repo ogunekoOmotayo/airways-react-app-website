@@ -1,4 +1,92 @@
-/**index.css**/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.Header_style {
+		@apply w-full h-fit bg-lightbluuBg border-b-4 border-tomatolike flex justify-between items-center p-5;
+	}
+
+	.DesktopListStyle {
+		@apply text-slate-200 p-2 no-underline hover:text-tomatolike;
+	}
+
+	.smallScreenNavListStyle {
+		@apply text-center pt-10 border-b border-spacing-1 border-orange-700 text-slate-200 p-2 no-underline hover:text-tomatolike;
+	}
+}
+
+@layer utilities {
+	.logoStyle {
+		font-size: 25px;
+		color: #dd5024;
+		font-weight: bold;
+		font-family: Playfair;
+	}
+	.animation {
+		background-color: #304149;
+		position: relative;
+		animation-name: animation;
+		animation-duration: 0.5s;
+		animation-timing-function: ease-in-out;
+	}
+	@keyframes animation {
+		0% {
+			left: -100rem;
+		}
+		100% {
+			left: 0;
+		}
+	}
+}
+
+/* Size of Heading Tags
+h1 = 32px
+h2 = 24px
+h3 = 20.8px
+h4 = 16px
+h5 = 12.8px
+h6 = 11.2px */
+
+/*Headings tags default resetting in tailwindcss*/
+@layer base {
+	h1 {
+		@apply h1;
+	}
+	h2 {
+		@apply h2;
+	}
+	h3 {
+		@apply h3;
+	}
+	h4 {
+		@apply h4;
+	}
+	h5 {
+		@apply h5;
+	}
+	h6 {
+		@apply h6;
+	}
+}
+
+@layer utilities {
+	.h1 {
+		font-size: 32px;
+	}
+	.h2 {
+		font-size: 24px;
+	}
+	.h3 {
+		font-size: 20.8px;
+	}
+	.h4 {
+		font-size: 16px;
+	}
+	.h5 {
+		font-size: 12.8px;
+	}
+	.h6 {
+		font-size: 11.2px;
+	}
+}
