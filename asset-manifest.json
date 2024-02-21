@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/airways-react-app-website/static/css/main.7130215c.css",
-    "main.js": "/airways-react-app-website/static/js/main.2d2cd648.js",
+    "main.css": "/airways-react-app-website/static/css/main.7f3ad5be.css",
+    "main.js": "/airways-react-app-website/static/js/main.7cea63b6.js",
     "static/js/592.7b089e88.chunk.js": "/airways-react-app-website/static/js/592.7b089e88.chunk.js",
     "static/media/fa-solid-900.ttf": "/airways-react-app-website/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/fa-brands-400.ttf": "/airways-react-app-website/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
@@ -16,12 +16,12 @@
     "static/media/OIP.jpeg": "/airways-react-app-website/static/media/OIP.5560ce4f0a0ab437bd76.jpeg",
     "static/media/fa-v4compatibility.woff2": "/airways-react-app-website/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/airways-react-app-website/index.html",
-    "main.7130215c.css.map": "/airways-react-app-website/static/css/main.7130215c.css.map",
-    "main.2d2cd648.js.map": "/airways-react-app-website/static/js/main.2d2cd648.js.map",
+    "main.7f3ad5be.css.map": "/airways-react-app-website/static/css/main.7f3ad5be.css.map",
+    "main.7cea63b6.js.map": "/airways-react-app-website/static/js/main.7cea63b6.js.map",
     "592.7b089e88.chunk.js.map": "/airways-react-app-website/static/js/592.7b089e88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7130215c.css",
-    "static/js/main.2d2cd648.js"
+    "static/css/main.7f3ad5be.css",
+    "static/js/main.7cea63b6.js"
   ]
 }
